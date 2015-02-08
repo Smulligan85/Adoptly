@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <ul>
+            <li><a href="#"><%= link_to "About", about_path %></a></li>
+            <li><a href="#">Animals</a></li>
+            <li><a href="#" id="adoptly">Adoptly</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Events</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Meet your new best friend.</h1>
+      </div>
+    </div>
+
+    <div class="supporting">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Search</h3>
+                <p>Find a pet based on location, type, breed, age, and gender. We look through hundreds of shelters, agencies, and rescue sites.</p>
+                <a href="#">GO</a>
+            </div>
+            <div class="col-md-4">
+                <h3>Learn</h3>
+                <p>Read articles on feeding, training, grooming, and more. Our resources ensure that your are fully prepared as a new pet owner.</p>
+                <a href="#">GO</a>
+            </div>
+            <div class="col-md-4">
+                <h3>Help</h3>
+                <p>Get involved to help pets in need. You can make a difference through volunteering, social media, and donations.</p>
+                <a href="#">GO</a>
+            </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <p>&copy; Adoptly</p>
+            </div>
+            <div class="col-md-3 col-md-offset-6">
+                <a href="#">Contact</a>
+                <a href="#">FAQ</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
