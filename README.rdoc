@@ -1,3 +1,5 @@
 == ADOPTLY
 
 This is a practice web application using Ruby on Rails
+
+Sean Mulligan February 2014

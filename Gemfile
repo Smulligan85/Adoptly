@@ -11,7 +11,9 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass', '~> 3.3.3'
-gem 'better_errors', '~> 2.1.1'
+group :development do
+  gem 'better_errors', '~> 2.1.1'
+end
 gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   gem 'byebug'
